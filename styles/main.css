@@ -1,0 +1,141 @@
+/*.borde{
+    border: solid 1px black;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+h1{
+    color: #f75a00;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40pt;
+    text-shadow: black 6px 6px 20px;  
+}
+hr{
+    color:#010125;
+}
+
+h2{
+    color: #ff9900;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+p{
+    color: #130901;
+    font-family: 'Delius', cursive;
+}
+
+li{
+    color: #130901;
+    font-family: 'Delius', cursive;
+}
+#main{
+    max-width: 1000px;
+    margin: auto;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#title{
+    width: 100%;
+    /*background: radial-gradient(circle, rgba(240,252,252,1) 0%, rgba(195,224,223,1) 58%, rgba(6,6,50,0.9500175070028011) 100%);*/
+    background: #118088;
+    height: 120px;
+    margin-bottom: 30px;
+    
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+#sec-image{
+    width: 49%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#img-div{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    
+}
+
+#image{
+    align-self: center;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: black 6px 6px 20px;   
+}
+
+#tribute-info{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 49%;
+}
+
+#tribute-general{
+    width: 98.5%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#tribute-link:hover{
+    color:#118088;
+}
+
+.generalidades{
+    text-align: justify;
+}
+
+#pie{
+    margin-bottom: 20px;
+    border-top: double #f75a00 ;
+    border-bottom: double #f75a00 ;
+    height: 70px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-name{
+    padding-left: 10px;
+    align-self: center;
+    flex: 2 1 0;
+}
+
+.pie-redes{
+    flex: 1 1 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.twitter{
+    width: 30px;
+    height: 30px;
+}
+
+.instagram{
+    width: 30px;
+    height: 30px;
+}
+
+.github{
+    width: 30px;
+    height: 30px;
+}
